@@ -1,0 +1,6 @@
+{
+  "watch": ["src", ".env"],
+  "ext": "js,ts,json",
+  "ignore": ["src/logs/*", "src/**/*.{spec,test}.ts"],
+  "exec": "node --loader ts-paths-esm-loader/transpile-only src/index.ts"
+}
