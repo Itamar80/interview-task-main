@@ -1,4 +1,3 @@
-// facebookService.ts
 import got, { Method } from 'got';
 import { buildRequestBody, handleResponseStream, parseJSONStream } from '../utils.ts';
 
