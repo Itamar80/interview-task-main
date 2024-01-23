@@ -32,3 +32,7 @@ Your primary goal is to replicate a specific Facebook request using an Express s
 ---
 
 We wish you the best with the assignment! We're excited to see your solution. Remember, the journey and your approach are as valuable as the final product. Happy coding!
+
+
+## Running the project
+- pnpm run dev
