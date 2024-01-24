@@ -61,5 +61,5 @@ export async function handleResponseStream(stream: Readable): Promise<string> {
 
 export function parseJSONStream(responseData: string): any[] {
   const responseLines = responseData.split('\n').filter(line => line.trim());
-  return responseLines.map(line => JSON.parse(line))[0];
+  return responseLines.map(line => JSON.parse(line));
 }
